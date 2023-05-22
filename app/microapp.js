@@ -1,9 +1,7 @@
-<script src="https://mtnhelp.freshchat.com/js/widget.js"></script>
 <script>
   function initFreshChat() {
     window.fcWidget.init({
-	 fullscreen: true,
-      	 token: "ce73e275-a505-4d32-b8ab-dae656c3f258",
+   	 token: "ce73e275-a505-4d32-b8ab-dae656c3f258",
 	 host: "https://mtnhelp.freshchat.com",
 	 
     });
