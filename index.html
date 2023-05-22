@@ -22,7 +22,7 @@
 
 <!-- chat script
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- <script src="https://wchat.freshchat.com/js/widget.js"></script>
+ <script src="https://wchat.freshchat.com/js/widget.js" asynchrone ></script>
 </head>
 
 <body>
@@ -39,11 +39,14 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script>
+var  timeInMillis  =  0,5000 ; 
+setTimeout ( fonction ()  {
   window.fcWidget.init({
     token: "ce73e275-a505-4d32-b8ab-dae656c3f258",
     host: "https://wchat.freshchat.com" ,
     open: true ,
   });
+}, timeInMillis );
 </script>
 </body>
 </html>
