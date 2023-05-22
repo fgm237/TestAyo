@@ -13,3 +13,11 @@
   window.addEventListener?window.addEventListener("load",initiateCall,!1):
   window.attachEvent("load",initiateCall,!1);
 </script>
+<script src="https://mtnhelp.freshchat.com/js/widget.js"></script>
+<script>
+  window.fcWidget.init({
+    fullscreen: true,
+    token: "ce73e275-a505-4d32-b8ab-dae656c3f258",
+    host: "https://mtnhelp.freshchat.com",
+  });
+</script>
