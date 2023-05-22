@@ -1,4 +1,6 @@
 <script>
+var timeInMillis = 0,0005;
+setTimeout(function() {
   function initFreshChat() {
     window.fcWidget.init({
    	 token: "ce73e275-a505-4d32-b8ab-dae656c3f258",
@@ -6,6 +8,7 @@
 	 
     });
   }
+},timeInMillis);
   function initialize(i,t){var e;i.getElementById(t)?
   initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,
   e.src="https://mtnhelp.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}
@@ -13,4 +16,6 @@
   window.addEventListener?window.addEventListener("load",initiateCall,!1):
   window.attachEvent("load",initiateCall,!1);
 </script>
+<script src= "https://mtnhelp.freshchat.com/js/widget.js" async></script>
+
 
